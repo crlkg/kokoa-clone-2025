@@ -9,8 +9,12 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 27px;
+  border-radius: 30px;
   margin-right: 20px;
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
 }
 .user-component__title {
   font-weight: 600;
@@ -20,4 +24,7 @@
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 17px;
+}
+.friends-screen {
+  padding: 0 var(--horizental-space);
 }
