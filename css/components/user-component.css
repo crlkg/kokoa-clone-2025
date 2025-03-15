@@ -1,7 +1,7 @@
 .user-component {
-  display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
+.user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
@@ -11,6 +11,11 @@
   height: 70px;
   border-radius: 30px;
   margin-right: 20px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
 }
 .user-component__avatar--xl {
   width: 80px;
@@ -25,6 +30,9 @@
   color: rgba(0, 0, 0, 0.5);
   font-size: 17px;
 }
-.friends-screen {
-  padding: 0 var(--horizental-space);
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
