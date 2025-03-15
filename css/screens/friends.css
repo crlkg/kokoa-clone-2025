@@ -1,0 +1,9 @@
+#freinds-display-link {
+  display: block;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 15px 0;
+}
+#freinds-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
