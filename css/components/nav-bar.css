@@ -21,24 +21,4 @@
   position: absolute;
   bottom: 10px;
   left: 13px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 15px;
-  height: 15px;
-  background-color: tomato;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 600;
-  border-radius: 10px;
-}
-.nav__bullit {
-  position: absolute;
-  top: 0;
-  right: -5px;
-  display: block;
-  width: 5px;
-  height: 5px;
-  background-color: tomato;
-  border-radius: 10px;
 }
