@@ -15,6 +15,11 @@
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.open-chat {
+  min-height: 35vh;
+}
+
 .open-chat__header {
   display: flex;
   justify-content: space-between;
